@@ -1,0 +1,10 @@
+CREATE TABLE cars (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  make TEXT,
+  model TEXT,
+  year INTEGER
+);
+
+INSERT INTO cars (make, model, year) VALUES ('Toyota', 'Camry', 2023);
+INSERT INTO cars (make, model, year) VALUES ('Honda', 'Accord', 2023);
+INSERT INTO cars (make, model, year) VALUES ('Ford', 'F-150', 2023);
